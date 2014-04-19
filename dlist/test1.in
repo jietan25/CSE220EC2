@@ -1,0 +1,96 @@
+create L1
+append L1 100
+append L1 200
+append L1 300
+append L1 400
+append L1 500
+print L1
+copy L2 L1
+print L2
+printr L2
+free L1
+insert L2 300 250
+insert L2 999 1
+insert L2 100 50
+print L2
+insert L2 500 450
+print L2
+remove L2 250
+print L2
+remove L2 50
+print L2
+remove L2 500
+print L2
+remove L2 999
+removeat L2 3
+print L2
+removeat L2 0
+print L2
+removeat L2 2
+print L2
+removeat L2 -1
+removeat L2 2
+insertat L2 0 100
+print L2
+insertat L2 1 150
+print L2
+create L1
+append L1 100
+append L1 200
+append L1 300
+append L1 400
+append L1 500
+print L1
+free L2
+copy L2 L1
+print L2
+free L1
+insert L2 300 250
+insert L2 999 1
+insert L2 100 50
+insert L2 500 450
+printr L2
+remove L2 250
+print L2
+remove L2 50
+print L2
+remove L2 500
+print L2
+remove L2 999
+removeat L2 3
+print L2
+removeat L2 0
+print L2
+removeat L2 2
+print L2
+removeat L2 -1
+removeat L2 2
+insertat L2 0 100
+print L2
+insertat L2 1 150
+print L2
+insertat L2 3 150
+insertat L2 -1 100
+insertat L2 5 100
+find L2 100
+find L2 300
+find L2 999
+create L3
+print L3
+printr L3
+append L3 100
+append L3 200
+append L3 100
+append L3 200
+print L3
+find L3 100
+insert L3 100 50
+print L3
+remove L3 100
+print L3
+findat L3 0
+findat L3 1
+findat L3 3
+findat L3 4
+findat L3 -1
+

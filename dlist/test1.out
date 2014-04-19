@@ -1,0 +1,95 @@
+L1 created
+appended 100 to L1
+appended 200 to L1
+appended 300 to L1
+appended 400 to L1
+appended 500 to L1
+L1 = [ 100 200 300 400 500 ]
+copies L1 to L2
+L2 = [ 100 200 300 400 500 ]
+L2 = [ 500 400 300 200 100 ]
+frees L1
+inserted 250 before 300 in L2
+failed to insert 1 before 999
+inserted 50 before 100 in L2
+L2 = [ 50 100 200 250 300 400 500 ]
+inserted 450 before 500 in L2
+L2 = [ 50 100 200 250 300 400 450 500 ]
+removed 250 from L2
+L2 = [ 50 100 200 300 400 450 500 ]
+removed 50 from L2
+L2 = [ 100 200 300 400 450 500 ]
+removed 500 from L2
+L2 = [ 100 200 300 400 450 ]
+failed to remove 999 from L2
+removed node at index 3 from L2
+L2 = [ 100 200 300 450 ]
+removed node at index 0 from L2
+L2 = [ 200 300 450 ]
+removed node at index 2 from L2
+L2 = [ 200 300 ]
+failed to remove node at index -1 from L2
+failed to remove node at index 2 from L2
+inserted new node with data 100 at 0 of L2
+L2 = [ 100 200 300 ]
+inserted new node with data 150 at 1 of L2
+L2 = [ 100 150 200 300 ]
+L1 created
+appended 100 to L1
+appended 200 to L1
+appended 300 to L1
+appended 400 to L1
+appended 500 to L1
+L1 = [ 100 200 300 400 500 ]
+frees L2
+copies L1 to L2
+L2 = [ 100 200 300 400 500 ]
+frees L1
+inserted 250 before 300 in L2
+failed to insert 1 before 999
+inserted 50 before 100 in L2
+inserted 450 before 500 in L2
+L2 = [ 500 450 400 300 250 200 100 50 ]
+removed 250 from L2
+L2 = [ 50 100 200 300 400 450 500 ]
+removed 50 from L2
+L2 = [ 100 200 300 400 450 500 ]
+removed 500 from L2
+L2 = [ 100 200 300 400 450 ]
+failed to remove 999 from L2
+removed node at index 3 from L2
+L2 = [ 100 200 300 450 ]
+removed node at index 0 from L2
+L2 = [ 200 300 450 ]
+removed node at index 2 from L2
+L2 = [ 200 300 ]
+failed to remove node at index -1 from L2
+failed to remove node at index 2 from L2
+inserted new node with data 100 at 0 of L2
+L2 = [ 100 200 300 ]
+inserted new node with data 150 at 1 of L2
+L2 = [ 100 150 200 300 ]
+inserted new node with data 150 at 3 of L2
+failed inserted new node with data 100 at -1 of L2
+failed inserted new node with data 100 at 5 of L2
+found 100 in L2
+found 300 in L2
+failed to find 999 in L2
+L3 created
+L3 = [ ]
+L3 = [ ]
+appended 100 to L3
+appended 200 to L3
+appended 100 to L3
+appended 200 to L3
+L3 = [ 100 200 100 200 ]
+found 100 in L3
+inserted 50 before 100 in L3
+L3 = [ 50 100 200 100 200 ]
+removed 100 from L3
+L3 = [ 50 200 100 200 ]
+found 0 in L3
+found 1 in L3
+found 3 in L3
+failed to find at 4 in L3
+failed to find at -1 in L3
